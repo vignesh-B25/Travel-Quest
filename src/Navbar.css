@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+.Navcontainer{
+    display:flex; 
+    height:50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    img{
+        position: absolute;
+        width: 10%;
+        height: 90px;
+        margin-left: 100px;
+        top: 0%;
+    }
+          
+   
+    .Navbar{
+        margin-left:80%;
+        top: 10px;
+        padding-right: 350px;
+        display: flex;
+       
+        
+    }
+    .Navitems{
+        padding: 20px;
+        right: 100px;
+        font-size: 20px;
+        
+    }
+    .Navitems:hover{
+        cursor: pointer;
+        color: orange;
+    }
+    .btn{
+        display: flex;
+      
+      
+    }
+    .btn button{
+        margin: 10px;
+        margin-right: 1px;
+         text-align: center;
+        border: none;
+        background: none;
+     
+        padding:  10px;
+        font-size: 20px;
+        height: 40px;
+        border-radius: 100px;
+     
+    
+    }
+    .btn button:hover{
+        background-color: orange;
+       transition-duration: 1s;
+    }
+
+}
+  
+
