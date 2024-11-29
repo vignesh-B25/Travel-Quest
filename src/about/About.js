@@ -15,7 +15,7 @@ function About(){
             we have something special for everyone.</p>
             </div>
             </div>
-            <video autoPlay muted>
+            <video  Controls>
                 <source src={Travel} type='video/mp4'>
                 </source>
                 </video>

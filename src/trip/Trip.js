@@ -1,6 +1,10 @@
+import React from 'react';
+
 import {useState} from 'react';
+
 import { FaWpforms } from "react-icons/fa6";
 import './trip.css'
+
 function Trip(){
         const [Showform,setShowform]=useState(false);
          const Mouseon=()=>setShowform(true);
@@ -17,10 +21,10 @@ function Trip(){
          if(Username && Uemail && Unum){
             setShowform(false);
             setForminfo({Username:'',Uemail:'',Unum:''});
-            alert(`Hi ${Forminfo.Username},we are welcome you to start journey `);
+            alert(`Hi ${Forminfo.Username},we are welcome you to start  the journey `);
            
          } else{
-            alert('please fil all the details');
+            alert('please fill all the details');
          }
         };
       
@@ -31,8 +35,10 @@ function Trip(){
         <i style={{fontSize:'20px'}} onMouseEnter={Mouseon} >
             <FaWpforms style={{color:'orange'}} className='icon' />
          Fill the details here</i>
+
          {Showform &&(
-        <form className='trip' onSubmit={Formhandler} >
+
+        <form method='post'  className='trip' action='C:\xampp\htdocs\TRAVEL\travelform.php' onSubmit={Formhandler} >
             <label>Enter name:<br/>
             <input type='text' placeholder='EX:Ram'
             name='Username'
@@ -51,7 +57,7 @@ function Trip(){
              value={Forminfo.Unum}
              onChange={SaveForm}/> 
             </label><br/>
-            <input type='submit'  />
+            <input type='submit' name='submit' />
         </form>)
         }
         

@@ -1,0 +1,65 @@
+.pls{
+    position:relative;
+    background: none;
+    text-align: center;
+    margin: 20px;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    gap: 20px;
+}
+h2{
+    color: orange;
+    margin: 20px;
+    margin-left: 20%;
+    text-align: center;
+    display: inline-block;
+}
+.vidply{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    border-radius: 55%;
+    margin-left: 100px;
+    background: none;
+    scale: 1.1;
+    color: orange;
+    
+}
+.plslst{
+    position: relative;
+    animation:moveLeft 20s linear infinite;
+    background-color:orange;
+    width:20%;
+    flex: 0 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+p{
+    font-size: 18px;
+    text-align:justify;
+
+}
+button{
+    margin: 5px;
+    width: 60%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+@keyframes moveLeft{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-600%);
+    }
+}
