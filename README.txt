@@ -1,5 +1,5 @@
-Wanderlust Adventures
-Wanderlust Adventures is a dynamic website designed to inspire and guide travelers on their journeys around the world. This project offers curated travel guides, personalized itineraries, and expert tips to help users explore top destinations, discover hidden gems, and create unforgettable memories.
+Travel-Quest
+Travel-Quest is a dynamic website designed to inspire and guide travelers on their journeys around the world. This project offers curated travel guides, personalized itineraries, and expert tips to help users explore top destinations, discover hidden gems, and create unforgettable memories.
 
 Features
 Comprehensive Travel Guides: Detailed guides to popular and off-the-beaten-path destinations.
